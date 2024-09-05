@@ -1,0 +1,44 @@
+body{
+    background-color:#FAFAD2 ;
+}
+.card{
+
+    display: flex;
+    flex-direction: column;
+    border: 40px solid white;
+    /* width: 100px;
+    height: 100px; */
+}
+
+
+.image{
+
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin: 0px;
+    padding: 0px;
+}
+.image img{
+    margin: 1px;
+    padding: 0px;
+ width:500px ;
+ height: 500px;
+ 
+}
+.text{
+margin: auto;
+padding: 50px;
+    
+    width: 500px;
+    height:500px ;
+}
+.text button{
+    padding: 0px;
+    margin:0px ;
+   text-align: left;
+    background-color: yellow;
+    width: 70px; ;
+    height: 30px;
+    text-align: center;
+}
